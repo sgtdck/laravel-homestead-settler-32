@@ -17,6 +17,9 @@ apt-add-repository ppa:chris-lea/node.js -y
 # this will install php 5.5.9 instead of php 5.5.12
 # apt-add-repository ppa:ondrej/php5 -y
 
+# Now that ondrej has released 5.6, let's add that package
+apt-add-repository ppa:ondrej/php5-5.6 -y
+
 # Update Package Lists
 
 apt-get update
